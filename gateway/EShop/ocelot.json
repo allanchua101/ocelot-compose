@@ -1,0 +1,41 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/products/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ocelot.products",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/products",
+      "UpstreamHttpMethod": ["Get", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/users/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ocelot.users",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/users",
+      "UpstreamHttpMethod": ["Get", "Options"]
+    },
+    {
+      "DownstreamPathTemplate": "/api/transactions/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "ocelot.transactions",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/transactions",
+      "UpstreamHttpMethod": ["Get", "Options"]
+    }
+  ],
+  "GlobalConfiguration": {}
+}

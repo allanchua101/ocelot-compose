@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "8ef43a73-89f2-4a5a-a4e3-3fa6e5cb944c",
+		"name": "OcelotDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Ocelot Downstream Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52790/api/products/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52790",
+					"path": [
+						"api",
+						"products",
+						"list"
+					]
+				},
+				"description": "Endpoint used for retrieving list of products from downstream Product API"
+			},
+			"response": []
+		},
+		{
+			"name": "Ocelot Downstream Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52791/api/users/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52791",
+					"path": [
+						"api",
+						"users",
+						"list"
+					]
+				},
+				"description": "Endpoint used for retrieving list of products from downstream Users API"
+			},
+			"response": []
+		},
+		{
+			"name": "Ocelot Downstream Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52792/api/transactions/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52792",
+					"path": [
+						"api",
+						"transactions",
+						"list"
+					]
+				},
+				"description": "Endpoint used for retrieving list of products from downstream Transactions API"
+			},
+			"response": []
+		},
+		{
+			"name": "Ocelot Gateway Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52793/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52793",
+					"path": [
+						"api",
+						"users"
+					]
+				},
+				"description": "Endpoint used for retrieving list of products from gateway Users API"
+			},
+			"response": []
+		},
+		{
+			"name": "Ocelot Gateway Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52793/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52793",
+					"path": [
+						"api",
+						"products"
+					]
+				},
+				"description": "Endpoint used for retrieving list of products from gateway Products API"
+			},
+			"response": []
+		},
+		{
+			"name": "Ocelot Gateway Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:52793/api/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "52793",
+					"path": [
+						"api",
+						"transactions"
+					]
+				},
+				"description": "Endpoint used for retrieving list of products from gateway transactions API"
+			},
+			"response": []
+		}
+	]
+}
