@@ -1,2 +1,2 @@
-# ocelot-compose
+# Ocelot and Docker Compose
 Docker compose sample for Ocelot
